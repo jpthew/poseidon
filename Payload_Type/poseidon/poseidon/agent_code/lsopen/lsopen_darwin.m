@@ -1,3 +1,5 @@
+// +build darwin,!ios
+
 #import <Foundation/Foundation.h>
 #include "lsopen_darwin.h"
 

@@ -1,3 +1,5 @@
+// +build darwin,!ios
+
 #import <Foundation/Foundation.h>
 #include "listtasks_darwin.h"
 

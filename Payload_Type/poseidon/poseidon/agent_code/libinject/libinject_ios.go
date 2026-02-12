@@ -1,13 +1,6 @@
-//go:build darwin && amd64 && !ios
+//go:build ios
 
 package libinject
-
-/*
-#cgo LDFLAGS: -lm -framework Foundation
-#cgo CFLAGS: -Wno-error=implicit-function-declaration
-#include "libinject_darwin_amd64.h"
-*/
-import "C"
 
 type DarwinInjection struct {
 	Target      int
@@ -33,14 +26,5 @@ func (l *DarwinInjection) SharedLib() string {
 }
 
 func injectLibrary(pid int, path string) (DarwinInjection, error) {
-	res := DarwinInjection{}
-	i := C.int(pid)
-	cpath := C.CString(path)
-
-	r := C.inject(i, cpath)
-	res.Successful = true
-	if r != 0 {
-		res.Successful = false
-	}
-	return res, nil
+	return DarwinInjection{Target: pid, Successful: false}, nil
 }

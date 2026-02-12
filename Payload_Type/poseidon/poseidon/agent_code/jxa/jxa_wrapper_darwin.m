@@ -1,3 +1,5 @@
+// +build darwin,!ios
+
 #import <Foundation/Foundation.h>
 #import <OSAKit/OSAKit.h>
 #include "jxa_wrapper_darwin.h"

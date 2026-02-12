@@ -1,3 +1,5 @@
+// +build darwin,!ios
+
 #include "libinject_darwin_arm64.h"
 
 #define STACK_SIZE 65536

@@ -1,3 +1,5 @@
+// +build darwin,!ios
+
 #include "tcc_check_helper_darwin.h"
 #import <Foundation/Foundation.h>
 #import <ApplicationServices/ApplicationServices.h>

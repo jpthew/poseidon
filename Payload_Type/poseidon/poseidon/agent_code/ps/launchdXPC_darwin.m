@@ -1,3 +1,5 @@
+// +build darwin,!ios
+
 //
 //  launchdXPC.c
 //  Created by Patrick Wardle

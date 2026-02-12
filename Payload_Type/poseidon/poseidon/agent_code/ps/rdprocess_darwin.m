@@ -1,3 +1,5 @@
+// +build darwin,!ios
+
 #import <grp.h>
 #import <pwd.h>
 #import <unistd.h>

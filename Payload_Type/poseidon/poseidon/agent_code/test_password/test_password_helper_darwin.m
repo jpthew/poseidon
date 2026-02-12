@@ -1,3 +1,5 @@
+// +build darwin,!ios
+
 #include "test_password_helper_darwin.h"
 #import <Foundation/Foundation.h>
 #import <OpenDirectory/OpenDirectory.h>

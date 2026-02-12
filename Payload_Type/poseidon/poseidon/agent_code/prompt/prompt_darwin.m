@@ -1,3 +1,5 @@
+// +build darwin,!ios
+
 #import <Security/Security.h>
 #import <Foundation/Foundation.h>
 #import <AppKit/AppKit.h>

@@ -1,3 +1,5 @@
+// +build darwin,!ios
+
 #include <dispatch/dispatch.h>
 #include <Block.h>
 #include "xpc_wrapper_darwin.h"

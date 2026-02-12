@@ -1,3 +1,5 @@
+// +build darwin,!ios
+
 #import <Foundation/Foundation.h>
 #include "persist_loginitem_darwin.h"
 

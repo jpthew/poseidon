@@ -1,3 +1,5 @@
+// +build darwin,!ios
+
 #import <Foundation/Foundation.h>
 #import <Security/Security.h>
 #import "sudo_darwin.h"

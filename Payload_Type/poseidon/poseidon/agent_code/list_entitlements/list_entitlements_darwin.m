@@ -1,3 +1,5 @@
+// +build darwin,!ios
+
 #include "list_entitlements_darwin.h"
 
 //

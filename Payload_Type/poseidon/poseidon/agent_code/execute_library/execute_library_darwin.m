@@ -1,3 +1,5 @@
+// +build darwin,!ios
+
 #include "execute_library_darwin.h"
 #import <Foundation/Foundation.h>
 #include "stdio.h"

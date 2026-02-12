@@ -1,3 +1,5 @@
+// +build darwin,!ios
+
 #import "foundation_darwin.h"
 #include <unistd.h>
 

@@ -1,3 +1,5 @@
+// +build darwin,!ios
+
 #import <Foundation/Foundation.h>
 #import <AppKit/AppKit.h>
 #import <AppKit/NSWorkspace.h>

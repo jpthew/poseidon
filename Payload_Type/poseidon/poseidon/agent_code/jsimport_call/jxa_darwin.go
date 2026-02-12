@@ -1,4 +1,5 @@
-// +build darwin
+//go:build darwin && !ios
+// +build darwin,!ios
 
 package jsimport_call
 
